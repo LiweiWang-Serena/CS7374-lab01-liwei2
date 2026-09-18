@@ -23,16 +23,19 @@ def main() -> None:
 
 def get_python_version() -> str:
     """Return the running Python version."""
+    # TODO: implement this function.
     return platform.python_version()
 
 
 def get_platform_name() -> str:
     """Return the operating-system/platform name."""
+    # TODO: implement this function.
     return platform.system()
 
 
 def normalize_name(name: str) -> str:
     """Return a normalized name suitable for display."""
+    # TODO: implement this function.
     if not isinstance(name, str):
         raise TypeError("name must be a string")
 
@@ -48,6 +51,7 @@ def build_environment_report(name: str) -> dict:
     """
     Return a dictionary describing the execution environment.
     """
+    # TODO: implement this function.
     normalized_name = normalize_name(name)
 
     return {
